@@ -2,7 +2,7 @@
 
 Welcome to my data science portfolio! This portfolio showcases some of my projects and work related to data science, machine learning, and artificial intelligence. Each project includes a brief description, the data used, and the techniques and tools applied.
 
-##Projects
+#Projects
 
 Project 1: Stroke Occurrence Prediction
 https://github.com/bschulman/Data-Science-Portfolio/blob/5c7ac37f1a63750cf2a7efae8a04b96d4aa04e2e/Kaggle_stroke.ipynb
