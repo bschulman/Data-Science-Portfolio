@@ -15,11 +15,19 @@ Build a classification model using neural networks to predict the probability of
 The [dataset](https://www.kaggle.com/competitions/playground-series-s3e2/data ) for this competition (both train and test) was generated from a deep learning model trained on the Stroke Prediction Dataset. 
 Feature distributions are close to, but not exactly the same, as the original.
 
+## Project 2
+#### Titanic - Machine Learning from Disaster
+[(Titanic Survival Prediction)](https://github.com/bschulman/Data-Science-Portfolio/blob/ed1b426d0a8ae8aae0fa48a8a4883e3e886a4766/Kaggle%20Titanic%20-%20Machine%20Learning%20from%20Disaster.ipynb)
 
+### Description: 
+Build a predictive model that answers the question: “what sorts of people were more likely to survive?” using the passenger data (i.e., name, age, gender, socio-economic class, etc.).
+
+### Data: 
+The [dataset](https://www.kaggle.com/competitions/titanic/data ) for this competition includes passenger information like name, age, gender, and socio-economic class. 
 
 ### Techniques and Tools: 
 
-Python, numpy, pandas, matplotlib, seaborn, scikit-learn, tensorflow, Keras, Feedforward Neural Networks
+Python, numpy, pandas, matplotlib, seaborn, scikit-learn, Decision Tree Classifier, Random Forest Classifier, Ensemble Techniques, Support Vector Machines
 
 *More to come!*
 
