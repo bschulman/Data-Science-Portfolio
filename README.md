@@ -5,11 +5,16 @@ Welcome to my data science portfolio! This portfolio showcases some of my projec
 **Projects**
 
 Project 1: Stroke Occurrence Prediction
+
 https://github.com/bschulman/Data-Science-Portfolio/blob/5c7ac37f1a63750cf2a7efae8a04b96d4aa04e2e/Kaggle_stroke.ipynb
+
 Description: Build a classification model using neural networks to predict the probability of positive stroke
+
 Data: The dataset for this competition (both train and test) was generated from a deep learning model trained on the Stroke Prediction Dataset. 
 Feature distributions are close to, but not exactly the same, as the original.
+
 https://www.kaggle.com/competitions/playground-series-s3e2/data 
+
 Techniques and Tools: Python, numpy, pandas, matplotlib, seaborn, scikit-learn, tensorflow, Keras, Feedforward Neural Networks
 
 *More to come!*
@@ -17,35 +22,52 @@ Techniques and Tools: Python, numpy, pandas, matplotlib, seaborn, scikit-learn, 
 **Skills**
 
 Python 
+
 R
+
 Java 
+
 C 
+
 SQL 
+
 Numpy 
+
 Keras 
+
 Matplotlib 
+
 Scikit-learn
+
 Machine Learning 
+
 Probability 
+
 Statistics 
+
 Data Science 
+
 Mathematics
 
 
 **Education**
 
 B.A. in Mathematics and Biochemistry from Lewis & Clark College
+
 Certificate in Applied Data Science from Massachusetts Institute of Technology
 
 **Experience**
 
 Business Systems Engineer at Onsight Services, LLC: April 2022 - Present
+
 Math and Science Tutor: January 2019 - Present
 
 **Contact**
 
 Email: benjaminschulman@gmail.com
+
 LinkedIn: linkedin.com/in/benjaminrschulman
+
 Linktree: https://linktr.ee/bschulman
 
 
