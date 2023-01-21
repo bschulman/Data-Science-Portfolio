@@ -21,7 +21,7 @@ Python, numpy, pandas, matplotlib, seaborn, scikit-learn, Tensorflow, Keras, Fee
 
 
 ## Project 2
-* Work in progress
+*Work in progress*
 #### Titanic - Machine Learning from Disaster
 [(Titanic Survival Prediction)](https://github.com/bschulman/Data-Science-Portfolio/blob/ed1b426d0a8ae8aae0fa48a8a4883e3e886a4766/Kaggle%20Titanic%20-%20Machine%20Learning%20from%20Disaster.ipynb)
 
