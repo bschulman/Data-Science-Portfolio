@@ -44,6 +44,7 @@ Python, numpy, pandas, matplotlib, seaborn, scikit-learn, Decision Tree Classifi
   - Keras 
   - Matplotlib 
   - Scikit-learn
+  - Seaborn
 - Data Science 
   - Machine Learning
   - Deep Learning
