@@ -21,6 +21,7 @@ Python, numpy, pandas, matplotlib, seaborn, scikit-learn, Tensorflow, Keras, Fee
 
 
 ## Project 2
+* Work in progress
 #### Titanic - Machine Learning from Disaster
 [(Titanic Survival Prediction)](https://github.com/bschulman/Data-Science-Portfolio/blob/ed1b426d0a8ae8aae0fa48a8a4883e3e886a4766/Kaggle%20Titanic%20-%20Machine%20Learning%20from%20Disaster.ipynb)
 
@@ -33,6 +34,22 @@ The [dataset](https://www.kaggle.com/competitions/titanic/data ) for this compet
 ### Techniques and Tools: 
 
 Python, numpy, pandas, matplotlib, seaborn, scikit-learn, Decision Tree Classifier, Random Forest Classifier, Ensemble Techniques, Support Vector Machines
+
+
+## Project 3 
+*Work in progress*
+#### Tabular Playground Series - Jul 2022
+[(Kaggle's first ever unsupervised clustering challenge)](https://github.com/bschulman/Data-Science-Portfolio/tree/main/Clustering)
+
+### Description: 
+In this challenge, you are given a dataset where each row belongs to a particular cluster. Your job is to predict the cluster each row belongs to. You are not given any training data, and you are not told how many clusters are found in the ground truth labels.
+
+### Data: 
+For this challenge, you are given (simulated) manufacturing control [data](https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/data) that can be clustered into different control states. Your task is to cluster the data into these control states. You are not given any training data, and you are not told how many possible control states there are. This is a completely unsupervised problem, one you might encounter in a real-world setting.
+### Techniques and Tools: 
+
+Python, numpy, pandas, matplotlib, scikit-learn, Tensorflow, Keras, Clustering: K-means and GMM, Dimensionality Reduction: PCA, Autoencoder
+
 
 *More to come!*
 
