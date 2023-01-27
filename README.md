@@ -117,12 +117,12 @@ Math and Science Tutor: January 2019 - Present
 
 Email: benjaminschulman@gmail.com
 
+**Additional Resources**
+
 LinkedIn: https://www.linkedin.com/in/benjaminrschulman
 
 Linktree: https://linktr.ee/bschulman
 
-
-**Additional Resources**
 
 Thank you for visiting my portfolio, I hope you find it informative. If you have any questions or would like to discuss any of my projects, please don't hesitate to contact me.
 
