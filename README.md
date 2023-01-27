@@ -5,6 +5,32 @@ Welcome to my data science portfolio! This portfolio showcases some of my projec
 # **Projects**
 
 ## Project 1 
+*Work in progress*
+#### Facial Emotion Recognition
+
+[(Capstone project for M.I.T. Applied Data Science Program)](https://github.com/bschulman/Data-Science-Portfolio/tree/main/Facial-Emotion-Recognition)
+
+### Description: 
+
+The goal of this project is to use Deep Learning and Artificial Intelligence techniques to create a computer vision model that can accurately detect facial emotions. 
+
+### Data: 
+
+I have been given about 15,000 48x48 images of:
+
+● Images of people who have happy facial expressions.
+
+● Images of people with sad or upset facial expressions.
+
+● Images of people who have shocked or surprised facial expressions.
+
+● Images of people showing no prominent emotion in their facial expression at all.
+
+### Techniques and Tools: 
+
+Python, numpy, pandas, matplotlib, Tensorflow, Keras, Data Augmentation, Convolutional Neural Networks, Computer Vision
+
+## Project 2 
 #### Kaggle Playground Series Season 3, Episode 2: Tabular Classification with a Stroke Prediction Dataset
 [(Stroke Occurrence Prediction)](https://github.com/bschulman/Data-Science-Portfolio/blob/5c7ac37f1a63750cf2a7efae8a04b96d4aa04e2e/Kaggle_stroke.ipynb)
 
@@ -20,7 +46,7 @@ Feature distributions are close to, but not exactly the same, as the original.
 Python, numpy, pandas, matplotlib, seaborn, scikit-learn, Tensorflow, Keras, Feedforward Neural Networks
 
 
-## Project 2
+## Project 3
 *Work in progress*
 #### Titanic - Machine Learning from Disaster
 [(Titanic Survival Prediction)](https://github.com/bschulman/Data-Science-Portfolio/blob/ed1b426d0a8ae8aae0fa48a8a4883e3e886a4766/Kaggle%20Titanic%20-%20Machine%20Learning%20from%20Disaster.ipynb)
@@ -36,7 +62,7 @@ The [dataset](https://www.kaggle.com/competitions/titanic/data ) for this compet
 Python, numpy, pandas, matplotlib, seaborn, scikit-learn, Decision Tree Classifier, Random Forest Classifier, Ensemble Techniques, Support Vector Machines
 
 
-## Project 3 
+## Project 4 
 *Work in progress*
 #### Tabular Playground Series - Jul 2022
 [(Kaggle's first ever unsupervised clustering challenge)](https://github.com/bschulman/Data-Science-Portfolio/tree/main/Clustering)
