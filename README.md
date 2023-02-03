@@ -43,7 +43,7 @@ Feature distributions are close to, but not exactly the same, as the original.
 
 ### Techniques and Tools: 
 
-Python, numpy, pandas, matplotlib, seaborn, scikit-learn, Tensorflow, Keras, Feedforward Neural Networks
+Python, numpy, pandas, matplotlib, seaborn, scikit-learn, Tensorflow, Keras, Feedforward Neural Networks, Convolutional Neural Networks
 
 
 ## Project 3
