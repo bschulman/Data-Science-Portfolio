@@ -5,6 +5,7 @@ The goal of this project is to use Deep Learning and Artificial Intelligence tec
 
 **Data:**
 The data set consists of 3 folders, i.e., 'test', 'train', and 'validation'. Each of these folders has four subfolders:
+
 ● ‘happy’: Images of people who have happy facial expressions.
 
 ● ‘sad’: Images of people with sad or upset facial expressions.
