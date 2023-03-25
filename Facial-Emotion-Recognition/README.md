@@ -36,13 +36,6 @@ I also use a custom cyclical learning to increase and then reduce the learning r
 **Results:**
 So far, I've acheived a validation accuracy of about 80% and a test accuracy of 57%. However, the model can't distinguish between sad and neutral.
 
-**Next Steps:**
-1. Further tune cyclical learning rate.
-2. Train the model on just sad and neutral then retrain with all four.
-
 Usage
 Code requires: zipfile, matplotlib, numpy, pandas, cv2, tensorflow, keras, tensorflow add ons, scikitlearn. It was written in colab so it imports the data from Google Drive
 
-Note:
-
-This is a work in progress. More updates and improvements are expected.
