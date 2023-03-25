@@ -19,7 +19,7 @@ In total there are 15,000 images that all vary in terms of age, racial and gende
 
 **Model:**
 
-The latest model is a sequential convolutional neural network (CNN) with the following architecture:
+The final model is a sequential convolutional neural network (CNN) with the following architecture:
 
 Four convolutional blocks with maxpooling.
 
@@ -27,14 +27,16 @@ Three dense layers with 128 neurons each.
 
 Relu activation and he-normal initialization
 
-The last dense layer has 4 neurons and softmax activation. 
+The last dense layer has 3 neurons and softmax activation. 
 
-The model is compiled with Adamax optimizer and categorical_crossentropy loss and accuracy as the metric.
+The model is compiled with Adamax optimizer and categorical_crossentropy loss and accuracy, recall, precision and AUC as metrics.
 
-I also use a custom cyclical learning to increase and then reduce the learning rate for each training cycle to prevent overfitting.
+I also use a custom cyclical learning schedule to increase and then reduce the learning rate for each training cycle to prevent overfitting.
 
 **Results:**
-So far, I've acheived a validation accuracy of about 80% and a test accuracy of 57%. However, the model can't distinguish between sad and neutral.
+I was ultimately unable to train a classifier that could distinguish between the sad and neutral classes. However, I was able to train a highly accurate classifier that could distinguish between a combined sad-neutral class, happy, and surprise.
+
+On that classifier, I acheived a validation accuracy of about 88% and a .96 AUC and a test accuracy of 92% a .973 AUC.
 
 Usage
 Code requires: zipfile, matplotlib, numpy, pandas, cv2, tensorflow, keras, tensorflow add ons, scikitlearn. It was written in colab so it imports the data from Google Drive
