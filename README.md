@@ -5,7 +5,7 @@ Welcome to my data science portfolio! This portfolio showcases some of my projec
 # **Projects**
 
 ## Project 1 
-*Work in progress*
+
 #### Facial Emotion Recognition
 
 [(Capstone project for M.I.T. Applied Data Science Program)](https://github.com/bschulman/Data-Science-Portfolio/tree/main/Facial-Emotion-Recognition)
@@ -47,23 +47,6 @@ Python, numpy, pandas, matplotlib, seaborn, scikit-learn, Tensorflow, Keras, Fee
 
 
 ## Project 3
-*Work in progress*
-#### Titanic - Machine Learning from Disaster
-[(Titanic Survival Prediction)](https://github.com/bschulman/Data-Science-Portfolio/blob/ed1b426d0a8ae8aae0fa48a8a4883e3e886a4766/Kaggle%20Titanic%20-%20Machine%20Learning%20from%20Disaster.ipynb)
-
-### Description: 
-Build a predictive model that answers the question: “what sorts of people were more likely to survive?” using the passenger data (i.e., name, age, gender, socio-economic class, etc.).
-
-### Data: 
-The [dataset](https://www.kaggle.com/competitions/titanic/data ) for this competition includes passenger information like name, age, gender, and socio-economic class. 
-
-### Techniques and Tools: 
-
-Python, numpy, pandas, matplotlib, seaborn, scikit-learn, Decision Tree Classifier, Random Forest Classifier, Ensemble Techniques, Support Vector Machines
-
-
-## Project 4 
-*Work in progress*
 #### Tabular Playground Series - Jul 2022
 [(Kaggle's first ever unsupervised clustering challenge)](https://github.com/bschulman/Data-Science-Portfolio/tree/main/Clustering)
 
