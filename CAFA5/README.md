@@ -1,1 +1,55 @@
+# CAFA 5 Protein Function Prediction
+## An Amateur's Journey
+
+
+The goal of this competition is to predict the function of a set of proteins. Over the next couple months I will develop a model trained on the amino-acid sequences of the proteins and on other data. In theory, my work will help researchers better understand the function of proteins, which is important for discovering how cells, tissues, and organs work.
+
+## Steps to come:
+
+- Analysis of the evaluation metric
+- Exploratory Data Analysis
+- Discussion of Cross-Validation Strategy
+- A benchmark and a baseline solution
+- Feature engineering
+- Hyperparameter tuning
+- Blending, ensembling and stacking models
+
+The Function Community of Special Interest (Function-COSI) brings together computational biologists, experimental biologists, and biocurators who are dealing with the important problem of gene and gene product function prediction, to share ideas and create collaborations. The Function-COSI holds annual meetings at the Intelligent Systems for Molecular Biology (ISMB) conference and conducts the multi-year Critical Assessment of protein Function Annotation (CAFA) experiment, an ongoing, global, community-driven effort to evaluate and improve the computational annotation of protein function.
+As written on the [Competition site]:
+
+> Assigning function to any specific protein can be made difficult due to the multiple functions many proteins have, along with their ability to interact with multiple partners. More knowledge of the functions assigned to proteins—potentially aided by data science—could lead to curing diseases and improving human and animal health and wellness in areas as varied as medicine and agriculture.
+
+> Research groups have developed many ways to determine the function of proteins, including numerous methods based on comparing unsolved sequences with databases of proteins whose functions are known. Other efforts aim to mine the scientific literature associated with some of these proteins, while even more methods combine sophisticated machine-learning algorithms with an understanding of biological processes to decipher what these proteins do. However, there are still many challenges in this field, which are driven by ambiguity, complexity, and data integration.
+
+## [Data]:
+The training set includes all proteins with [annotated terms] from the [UniProt]KB release of 2022-11-17 that have been validated by [experimental] or [high-throughput] evidence, traceable author statement (evidence code [TAS]), or inferred by curator ([IC]). However, we are not required to train on those data.
+
+The test superset is a set of protein sequences on which we are asked to predict [GO terms]. 
+
+The test set will contain protein sequences (and their functions) from the test superset that gained experimental annotations between the submission deadline (August) and the end of the year.
+
+
+
+
+
+   [Data]: <https://www.kaggle.com/competitions/cafa-5-protein-function-prediction/data>
+   [UniProt]: <https://www.uniprot.org/>
+   [annotated terms]: <http://geneontology.org/docs/go-annotations/>
+   [competition site]: <https://www.kaggle.com/competitions/cafa-5-protein-function-prediction/overview>
+   [TAS]: <https://wiki.geneontology.org/index.php/Traceable_Author_Statement_(TAS)>
+   [IC]: <https://wiki.geneontology.org/index.php/Inferred_by_Curator_(IC)>
+   [experimental]: <https://wiki.geneontology.org/Inferred_from_Experiment_(EXP)>
+   [high-throughput]: <https://wiki.geneontology.org/Inferred_from_High_Throughput_Experiment_(HTP)>
+   [GO terms]: <http://geneontology.org/docs/GO-term-elements>
+   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
+   [express]: <http://expressjs.com>
+   [AngularJS]: <http://angularjs.org>
+   [Gulp]: <http://gulpjs.com>
+
+   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
+   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
+   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
+   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
+   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
+   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
 
