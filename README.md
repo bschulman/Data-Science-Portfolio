@@ -4,9 +4,8 @@ Welcome to my data science portfolio! This portfolio showcases some of my projec
 
 # **Projects**
 
-## Project 1 
+## Facial Emotion Recognition
 
-#### Facial Emotion Recognition
 
 [(Capstone project for M.I.T. Applied Data Science Program)](https://github.com/bschulman/Data-Science-Portfolio/tree/main/Facial-Emotion-Recognition)
 
@@ -30,8 +29,8 @@ I have been given about 15,000 48x48 images of:
 
 Python, numpy, pandas, matplotlib, Tensorflow, Keras, Data Augmentation, Convolutional Neural Networks, Computer Vision
 
-## Project 2 
-#### Kaggle Playground Series Season 3, Episode 2: Tabular Classification with a Stroke Prediction Dataset
+## Kaggle Playground Series Season 3, Episode 2: Tabular Classification with a Stroke Prediction Dataset
+
 [(Stroke Occurrence Prediction)](https://github.com/bschulman/Data-Science-Portfolio/blob/5c7ac37f1a63750cf2a7efae8a04b96d4aa04e2e/Kaggle_stroke.ipynb)
 
 ### Description: 
@@ -46,8 +45,8 @@ Feature distributions are close to, but not exactly the same, as the original.
 Python, numpy, pandas, matplotlib, seaborn, scikit-learn, Tensorflow, Keras, Feedforward Neural Networks, Convolutional Neural Networks
 
 
-## Project 3
-#### Tabular Playground Series - Jul 2022
+## Tabular Playground Series - Jul 2022
+
 [(Kaggle's first ever unsupervised clustering challenge)](https://github.com/bschulman/Data-Science-Portfolio/tree/main/Clustering)
 
 ### Description: 
