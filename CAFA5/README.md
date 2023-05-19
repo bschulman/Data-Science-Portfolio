@@ -6,7 +6,7 @@ The goal of this competition is to predict the function of a set of proteins. Ov
 
 ## Steps to come:
 
-- Analysis of the evaluation metric
+- Analysis of the [evaluation metric]
 - Exploratory Data Analysis
 - Discussion of Cross-Validation Strategy
 - A benchmark and a baseline solution
@@ -57,7 +57,7 @@ The test set will contain protein sequences (and their functions) from the test 
    [Information acceration]: <https://github.com/claradepaolis/InformationAccretion>
    [ontology]: <http://geneontology.org/docs/ontology-documentation/>
 
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
+   [evaluation metric]: <https://github.com/bschulman/Data-Science-Portfolio/blob/main/CAFA5/Eval%20Metric.md>
    [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
    [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
    [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
