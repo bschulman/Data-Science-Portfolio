@@ -45,12 +45,12 @@ We assume that the relationships between the terms in the ontology can be repres
 
 What we're interested in is the likelihood that a protein is associated with a specific group of terms in the ontology, based on experimental evidence.
 
-The information content of a subgraph is the number of bits of information one would recieve about a protein if it were annotated with some subgraph $$T$$: $$i(T)=\log_2{\frac{1}{Pr(T)}}$$
-where $$Pr(T)=\prod_{\nu\in T}Pr(\nu|Pa(\nu))$$ and $$Pa(\nu)$$ is the set of parent nodes of $$\nu$$
+The information content of a subgraph is the number of bits of information one would recieve about a protein if it were annotated with some subgraph $T$: $$i(T)=\log_2{\frac{1}{Pr(T)}}$$
+where $Pr(T)=\prod_{\nu\in T}Pr(\nu|Pa(\nu))$ and $Pa(\nu)$ is the set of parent nodes of $\nu$
 #### Information content of a node
-Then the [Information accretion] for each node in the subgraph measures how much information is added to an ontology annotation by some node $$\nu$$ given that its parents are already annotated, i.e., the increase, or accretion, of information obtained by adding a child term to a parent term, or set of parent terms, in an annotation.
+Then the [Information accretion] for each node in the subgraph measures how much information is added to an ontology annotation by some node $\nu$ given that its parents are already annotated, i.e., the increase, or accretion, of information obtained by adding a child term to a parent term, or set of parent terms, in an annotation.
 
-The weight for each term is [computed] as follows: Each term, $$f$$, in the ontology is weighted according to its information content: $$ic(f)=\log_2{\frac{1}{Pr(f|\mathbb{P})}}$$ where $$Pr(f|\mathbb{P})$$ is the conditional probability that $$f$$ is associated to a given protein given all the terms parents are associated (calculated from the union of SwissProt, UniProt-GOA and GO consortium databases), or the rarity of observing the association between the term and the protein, given the presence of its parent terms and is expressed in units of bits. 
+The weight for each term is [computed] as follows: Each term, $f$, in the ontology is weighted according to its information content: $$ic(f)=\log_2{\frac{1}{Pr(f|\mathbb{P})}}$$ where $Pr(f|\mathbb{P})$ is the conditional probability that $f$ is associated to a given protein given all the terms parents are associated (calculated from the union of SwissProt, UniProt-GOA and GO consortium databases), or the rarity of observing the association between the term and the protein, given the presence of its parent terms and is expressed in units of bits. 
 #### Comparing two graphs
 Let's imagine a scenario where we have two graphs: one represents the actual function of a protein (let's call it T), and the other represents the predicted function (let's call it P).
 
@@ -84,12 +84,12 @@ $$pr_w(T,P(\tau))=\frac{\sum_{\nu\in T\cap P(\tau)}ia(\nu)}{\sum_{\nu\in P(\tau)
 
 $$rc_w(T,P(\tau))=\frac{\sum_{\nu\in T\cap P(\tau)}ia(\nu)}{\sum_{\nu\in P(\tau))}ia(\nu)}$$
 
-where $$P(\tau)$$ is the set of predicted terms with score $$\geq$$ the decision threshold $$\tau$$, and $$T$$ is the set of the proteins already annotated terms. 
+where $P(\tau)$ is the set of predicted terms with score $\geq$ the decision threshold $\tau$, and $T$ is the set of the proteins already annotated terms. 
 
-Finally, the $$F_{max}=\max_{\tau}{2\cdot\frac{2pr_w(\tau)\cdot rc_w(\tau)}{pr_w(\tau)+rc_w(\tau)}}$$
+Finally,  $$F_{max}=\max_{\tau}{2\cdot\frac{2pr_w(\tau)\cdot rc_w(\tau)}{pr_w(\tau)+rc_w(\tau)}}$$
 
 ### Full Evaluation:
-In full evaluation, $$ic(f)$$ for each $$f$$ are provided a priori. However, the probabilities they are calculated from are unknown and estimated using the observed annotations in the datasets as the empirical distribution. 
+In full evaluation, $ic(f)$ for each $f$ are provided a priori. However, the probabilities they are calculated from are unknown and estimated using the observed annotations in the datasets as the empirical distribution. 
 
 
 
